@@ -5,7 +5,7 @@ test('verify admin can add emp status', async ({ page }) => {
   await page.getByRole('textbox', { name: 'Username' }).press('CapsLock');
   await page.getByRole('textbox', { name: 'Username' }).fill('A');
   await page.getByRole('textbox', { name: 'Username' }).press('CapsLock');
-  await page.getByRole('textbox', { name: 'Username' }).fill('Admin');
+  await page.getByRole('textbox', { name: 'Username' }).fill('login');
   await page.getByRole('textbox', { name: 'Password' }).click();
   await page.getByRole('textbox', { name: 'Password' }).fill('admin123');
   await page.getByRole('button', { name: 'Login' }).click();
