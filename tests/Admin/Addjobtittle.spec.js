@@ -22,6 +22,7 @@ test('verify admin can add jb tittle', async ({ page }) => {
   await page.getByRole('button', { name: 'Save' }).click();
 });
 
+
 test('test', async ({ page }) => {
   await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
   await page.getByRole('textbox', { name: 'Username' }).press('CapsLock');
